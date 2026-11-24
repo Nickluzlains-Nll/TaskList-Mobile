@@ -1,7 +1,7 @@
 # TaskList Mobile
 
 Aplicativo de tarefas para Android e iOS feito com **React Native (Expo)** e **Firebase**.
-É a versão mobile do [TaskList Web](https://github.com/vinicius-beitum/Task-List): os dois usam o mesmo
+É a versão mobile do [TaskList Web](https://github.com/Nickluzlains-Nll/Task-List): os dois usam o mesmo
 projeto Firebase, então a mesma conta vê as mesmas tarefas no celular e no navegador, em tempo real.
 
 ## Download
@@ -79,3 +79,8 @@ os próprios documentos, e os campos são validados no servidor.
 ## Licença
 
 [MIT](LICENSE)
+
+## Autores
+
+- **Nicolas Luz** — app mobile (React Native)
+- **Vinicius Beitum** — versão web ([TaskList Web](https://github.com/vinicius-beitum/Task-List))
