@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "task-list-mobile",
+    "name": "TaskList",
     "slug": "task-list-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,8 +10,9 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.tasklist.mobile",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#00081D",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -19,6 +20,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "@react-native-community/datetimepicker",
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cfbb3f4a-2ff8-45f4-9a0f-87521de68a9f"
+      }
     }
   }
 }
